@@ -1,5 +1,5 @@
 <script>
-  let items = ['Leer Svelte', 'Bouw een app', 'Veel plezier!'];
+  let items = [];
   let newItem = '';
 
   function addItem() {
@@ -18,7 +18,6 @@
       <li>{item}</li>
     {/each}
   </ul>
-  <h1>Domme idioot</h1>
 
   <input
     type="text"
